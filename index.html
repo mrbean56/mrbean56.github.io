@@ -45,8 +45,6 @@
 		<li class="menu_li"><a class="links" data-background="sonarr" href="http://localhost:8989">Sonarr</a></li>
 		<li class="menu_li"><a class="links" data-background="plex" href="http://localhost:32400/web/index.html">Plex</a></li>
 		<li class="menu_li"><a class="links" data-background="netflix" href="http://netflix.com">Netflix</a></li>
-		<li class="menu_li"><a class="links" data-background="t411" href="https://t411.al">T411</a></li>
-		<li class="menu_li"><a class="links" data-background="radarr" href="http://localhost:7878">Radarr</a></li>
 		<li class="bg"></li>
 	</ul>
 		
@@ -62,20 +60,6 @@
 		</a>
 	</div>-->
 
-	<div class="options">
-		<input type="image" id="optionsIcon" src="img/options.png" onclick="showMenu()">
-		<input type="image" id="xIcon" src="img/x.png" onclick="hideMenu()">
-	</div>
-	<div class="optionsWrapper" id="optionsWrapper">
-		<ul>
-			<li><label for="red">Red:</label></li>
-			<li><input type="range" name="red" oninput="setRed(this.value), setBG()" id="red" value="100" min="0" max="255" data-highlight="true"><span id="redValue">100</span></li>
-			<li><label for="green">Green:</label></li>
-			<li><input type="range" name="green" oninput="setGreen(this.value), setBG()" id="green" value="111" min="0" max="255" data-highlight="true"><span id="greenValue">111</span></li>
-			<li><label for="blue">Blue:</label></li>
-			<li><input type="range" name="blue" oninput="setBlue(this.value), setBG()" id="blue" value="103" min="0" max="255" data-highlight="true"><span id="blueValue">103</span></li>
-		</ul>
-	</div>
 
 	<div class="message">
 		Start typing url or text to search google !
